@@ -11,9 +11,7 @@
 //npm init (step by step, press enter to skip)
 //npm init -y (everything default)
 
-
-const _ = require('lodash')
-
-const intems = [1,[2,[3,[4]]]]
-const newItems = _.flattenDeep(intems);
-console.log(newItems);
+setInterval(() =>{
+    console.log('hello world');
+}, 2000)
+console.log('i will run first');
